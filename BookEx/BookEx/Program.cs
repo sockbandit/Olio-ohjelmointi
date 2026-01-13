@@ -6,8 +6,8 @@
         {
             Console.WriteLine("BookExercise");
 
-            Book abcBook = new Book("Chemistry", "Mike Chemist", 10, "12313");
-            abcBook.PrintBookInfo();
+            Book chemBook = new Book("Chemistry", "Mike Chemist", 10, "12313");
+            chemBook.PrintBookInfo();
 
             Book mathBook = new Book();
             mathBook.title = "Math";
@@ -15,8 +15,8 @@
             mathBook.price = 15;
             mathBook.SetId("54321");
             mathBook.PrintBookInfo();
-            abcBook.CompareBooks(mathBook);
-            mathBook.CompareBooks(abcBook);
+            chemBook.CompareBooks(mathBook);
+            mathBook.CompareBooks(chemBook);
         }
     }
 }
