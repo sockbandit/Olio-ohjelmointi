@@ -6,7 +6,7 @@
         {
             Console.WriteLine("BookExercise");
 
-            Book chemBook = new Book("Chemistry", "Mike Chemist", 10, "12313");
+            Book chemBook = new Book("Chemistry", "Mike Chemist", 10, "12313"); 
             chemBook.PrintBookInfo();
 
             Book mathBook = new Book();
