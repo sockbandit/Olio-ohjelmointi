@@ -6,7 +6,7 @@
         {
             Car car1 = new Car();
             Car car2 = new Car();
-            car1.AskData();             //Pyydetään käyttäjältä tiedot kummallekin autolle :)  
+            car1.AskData();             //Pyydetään käyttäjältä tiedot kummallekin autolle :)   
             car2.AskData(); 
             car1.ShowCarinfo();
             car2.ShowCarinfo();
