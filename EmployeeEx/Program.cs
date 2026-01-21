@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
 
-            
+             
 
             Employee[] employees = new Employee[3];     //Taulukko työntekijöille
             employees[0] = new Employee("Kasper Kaarna", "1", "CEO, COO, Millionaire", 6000);
