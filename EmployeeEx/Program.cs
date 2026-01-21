@@ -11,7 +11,7 @@
             employees[0] = new Employee("Kasper Kaarna", "1", "CEO, COO, Millionaire", 6000);
             employees[1] = new Employee("Kasperi Nyrkkö", "2", "Truck Driver", 3500);
             employees[2] = new Employee("Mikko Pakarinen", "3", "Toilet Cleaner", 3000);
-             
+              
             Console.ForegroundColor = ConsoleColor.Red;  //Vaihdetaan väriä punaiseksi otsikkoon
             Console.WriteLine("Employee salaries and titles");
             Console.ResetColor();
