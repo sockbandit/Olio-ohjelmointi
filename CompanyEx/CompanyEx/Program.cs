@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Company firma1 = new Company("Epic Games", "Kauppakatu 70", "0401234567", 200000, 150000);
+            Company firma1 = new Company("Epic Games", "Kauppakatu 70", "0401234567", 151000, 150000);
             Company firma2 = new Company("Riot Games", "Valtakatu 40", "0409876543", 350000, 75000);
             /*firma1.PrintCompanyInfo();
             firma2.PrintCompanyInfo();
