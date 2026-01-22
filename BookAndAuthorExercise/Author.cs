@@ -44,7 +44,7 @@ namespace BookAndAuthorExercise
         {
             Console.WriteLine($"Author : {name}");
             Console.WriteLine($"Birthday : {birthday}");
-
+             
             if (book != null)
             {
                 Console.WriteLine(book.ToString());
