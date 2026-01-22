@@ -1,4 +1,5 @@
-﻿namespace BookAndAuthorExercise
+﻿using Literature;
+namespace BookAndAuthorExercise
 {
     internal class Program
     {

@@ -4,7 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BookAndAuthorExercise
+
+namespace Literature //BookAndAuthorExercise
 {
     internal class Book
     {
@@ -15,6 +16,8 @@ namespace BookAndAuthorExercise
         public static string theme = "default";
         private string? isbn;        
         private const double discount = 0.9;
+        
+        //length of isbn and 978 prefix
         private const int MaxLength = 13;
         private const string Prefix = "978";
 
@@ -90,7 +93,7 @@ namespace BookAndAuthorExercise
             }
         }
 
-        public string Author
+        public string Author //readonly property
         {
             get => author;
         }
